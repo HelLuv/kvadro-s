@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 import {Navbar} from "@/widgets/Havbar";
 import {Hero} from "@/views/Hero";
 import {Services} from "@/views/Services";
