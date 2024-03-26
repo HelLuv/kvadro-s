@@ -1,0 +1,19 @@
+.contactList {
+    font-style: normal;
+}
+
+.contactsListHeader {
+    color: #22325F;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}

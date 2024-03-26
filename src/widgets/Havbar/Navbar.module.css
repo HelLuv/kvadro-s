@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 3rem;
+    height: min-content;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s;
+}
+
+.sticky {
+    background-color: rgba(255, 255, 255, 0.9);
+}

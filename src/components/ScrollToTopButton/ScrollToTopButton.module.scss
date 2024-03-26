@@ -1,0 +1,16 @@
+.scrollToTop {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}

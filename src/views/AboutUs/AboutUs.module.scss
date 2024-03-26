@@ -1,0 +1,30 @@
+.aboutUsSection {
+    padding-top: 40px;
+    background-image: url('/about-company-bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+.info {
+    position: relative;
+
+    max-width: 470px;
+    z-index: 10;
+
+    p {
+        color: rgb(9, 20, 5);
+    }
+}
+
+.cover {
+    height: 160%;
+    width: 70%;
+    background-color: rgba(186, 190, 208, 0.7);
+    transform: rotate(3deg);
+    position: absolute;
+    top: -200px;
+    left: -40px;
+    z-index: 1;
+}

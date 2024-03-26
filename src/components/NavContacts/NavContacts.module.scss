@@ -1,0 +1,14 @@
+.contactsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    a {
+        color: var(--primary-text-color);
+        font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+}

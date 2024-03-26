@@ -1,0 +1,65 @@
+.feedbackFormWrapper {
+    max-width: 400px;
+    text-align: left;
+}
+
+.feedbackHeader {
+    color: #22325F;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.feedbackForm {
+    width: 330px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.formItem {
+    margin-bottom: 1rem;
+
+    & label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-size: 15px;
+    }
+
+    & input, textarea {
+        width: 100%;
+        max-width: 330px;
+        background-color: rgb(246, 249, 245);
+        color: #000;
+        font-size: 18px;
+        outline: transparent;
+        padding: 3px 5px;
+    }
+
+    & textarea {
+        resize: none;
+        border: 2px solid rgb(62, 65, 80);
+    }
+
+    & input {
+        height: 34px;
+    }
+}
+
+.buttonWrapper {
+    text-align: right;
+
+    & button {
+        cursor: pointer;
+        font-size: 18px;
+        background-color: rgba(101, 113, 143, 0.58);
+        color: #fff;
+        padding: 0.5rem 1rem;
+        transition: all 0.2s linear;
+
+        &:hover {
+            background-color: rgba(101, 113, 143, 0.8);
+        }
+    }
+}

@@ -1,0 +1,17 @@
+
+.mainInfoWrapper {
+    position: relative;
+    z-index: 10;
+    max-width: 480px;
+    margin: 0 auto 150px;
+
+    P {
+        font-size: 15px;
+        line-height: 22px;
+        text-indent: 3rem;
+    }
+}
+
+.review {
+    margin-top: 3rem;
+}

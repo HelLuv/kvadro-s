@@ -1,0 +1,25 @@
+.headerWrapper {
+    text-align: center;
+}
+
+.header {
+    font-size: 50px;
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+    color: #22325F;
+    font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+
+    &:after {
+        content: '';
+        height: 3px;
+        width: 100%;
+        background-color: #22325F;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
