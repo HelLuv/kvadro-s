@@ -1,8 +1,7 @@
 import styles from "./NavList.module.scss"
 
-export const NavList = () => {
-
-    return (
+export const NavList = () =>
+    (
         <nav>
             <ul className={styles.navList}>
                 <li>
@@ -23,4 +22,3 @@ export const NavList = () => {
             </ul>
         </nav>
     );
-};

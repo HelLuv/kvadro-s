@@ -23,3 +23,15 @@
         left: 0;
     }
 }
+
+@media (max-width: 1200px) {
+    .header {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        font-size: 35px;
+    }
+}

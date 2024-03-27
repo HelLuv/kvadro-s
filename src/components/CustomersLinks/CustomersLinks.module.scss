@@ -7,3 +7,16 @@
     gap: 2rem;
     margin: 0 auto;
 }
+
+
+@media (max-width: 1000px) {
+    .list {
+        padding: 1rem 1rem 0;
+        gap: 1rem;
+        justify-content: flex-start;
+    }
+
+    .customerImage {
+        max-width: 100%;
+    }
+}

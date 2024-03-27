@@ -5,9 +5,8 @@ import EmailIcon from "../../../public/email.svg";
 import styles from './NavContacts.module.scss';
 
 
-export const NavContacts = () => {
-
-    return (
+export const NavContacts = () =>
+    (
         <ul className={styles.contactsWrapper}>
             <li>
                 <a href="tel:+7 (831) 282-11-36">
@@ -23,4 +22,3 @@ export const NavContacts = () => {
             </li>
         </ul>
     );
-};

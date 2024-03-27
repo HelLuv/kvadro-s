@@ -2,9 +2,8 @@ import Image from "next/image";
 import LogoImage from "../../../public/logo.png";
 import styles from './Logo.module.css';
 
-export const Logo = () => {
-
-    return (
+export const Logo = () =>
+    (
         <a href="#" className={styles.logoWrapper}>
             <Image src={LogoImage} alt="КвадроCтрой" width={80} className={styles.logo}/>
 
@@ -15,4 +14,3 @@ export const Logo = () => {
             <span className={styles.description}>простое решение сложных вопросов</span>
         </a>
     );
-};

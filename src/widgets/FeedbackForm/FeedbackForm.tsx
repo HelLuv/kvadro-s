@@ -1,7 +1,7 @@
 import styles from './FeedbackForm.module.scss';
 
-export const FeedbackForm = () => {
-    return (
+export const FeedbackForm = () =>
+    (
         <div className={styles.feedbackFormWrapper}>
             <h3 className={styles.feedbackHeader}>
                 Ответы на вопросы
@@ -41,4 +41,3 @@ export const FeedbackForm = () => {
             </form>
         </div>
     );
-};

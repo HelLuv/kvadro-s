@@ -4,9 +4,8 @@ import {AboutUsBanner} from "@/components/AboutUsBanner";
 import {AboutUsInfo} from "@/components/AboutUsInfo";
 
 
-export const AboutUs = () => {
-
-    return (
+export const AboutUs = () =>
+    (
         <section className={styles.aboutUsSection}>
             <SectionAnchor sectionId="aboutUsSectionAnchor"/>
             <div className={styles.cover}></div>
@@ -16,4 +15,3 @@ export const AboutUs = () => {
             <AboutUsBanner/>
         </section>
     );
-};

@@ -15,7 +15,7 @@ export const ServiceCard = (props: ServiceCardProps) => {
 
     return (
         <div className={styles.cardWrapper}>
-            <Image src={image} alt={title}/>
+            <Image className={styles.serviceImage} src={image} alt={title}/>
 
             <h3 className={styles.header}>{title}</h3>
 

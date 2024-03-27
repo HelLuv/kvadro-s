@@ -15,3 +15,14 @@
     text-align: left;
     padding: 0.5rem 1rem 1rem;
 }
+
+@media (max-width: 1000px) {
+    .cardWrapper {
+        max-width: 450px;
+        width: 100%;
+    }
+    .serviceImage {
+        width: 100%;
+        height: min-content;
+    }
+}

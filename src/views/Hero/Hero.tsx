@@ -2,9 +2,8 @@ import styles from './Hero.module.scss';
 import ArrowDownIcon from '../../../public/arrow-down.png';
 import Image from "next/image";
 
-export const Hero = () => {
-
-    return (
+export const Hero = () =>
+    (
         <section className={styles.heroSection}>
             <div className={styles.headers}>
                 <h1>
@@ -26,4 +25,3 @@ export const Hero = () => {
             </a>
         </section>
     );
-};

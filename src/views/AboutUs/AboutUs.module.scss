@@ -7,17 +7,6 @@
     position: relative;
 }
 
-.info {
-    position: relative;
-
-    max-width: 470px;
-    z-index: 10;
-
-    p {
-        color: rgb(9, 20, 5);
-    }
-}
-
 .cover {
     height: 160%;
     width: 70%;
@@ -27,4 +16,17 @@
     top: -200px;
     left: -40px;
     z-index: 1;
+
+    @media (max-width: 1500px) {
+        width: 90%;
+    }
+    @media (max-width: 870px) {
+        width: 99%;
+        left: 0;
+    }
+    @media (max-width: 550px) {
+        width: 100%;
+        transform: rotate(0deg);
+        inset: 0;
+    }
 }

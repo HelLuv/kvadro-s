@@ -4,6 +4,7 @@
     margin: 0 auto;
     justify-content: center;
 }
+
 .emptyBlock {
     width: 400px;
 }
@@ -24,5 +25,32 @@
         background-color: rgb(69, 72, 122);
         position: absolute;
         top: -40px;
+    }
+}
+
+@media (max-width: 850px) {
+    .partnerWrapper {
+        justify-content: flex-start;
+        gap: 0;
+        padding: 1rem 2rem;
+        margin-top: 0;
+    }
+
+    .emptyBlock {
+        width: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .partnerWrapper {
+        padding: 1rem;
+    }
+
+    .partnerHeader {
+        margin-top: 20px;
+
+        &:before {
+            top: -16px;
+        }
     }
 }

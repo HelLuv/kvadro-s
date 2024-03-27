@@ -8,9 +8,8 @@ import {Director} from "@/components/Director";
 import {Partnership} from "@/components/Partnership";
 
 
-export const Contacts = () => {
-
-    return (
+export const Contacts = () =>
+    (
         <section className={styles.contactsSection}>
             <SectionAnchor sectionId="contactsSectionAnchor"/>
             <SectionHeader title="КОНТАКТЫ"/>
@@ -27,4 +26,3 @@ export const Contacts = () => {
             <Partnership/>
         </section>
     );
-};

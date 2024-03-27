@@ -4,9 +4,8 @@ import PhoneIcon from "../../../public/phone.svg";
 import LocationIcon from '../../../public/location.svg';
 import Image from "next/image";
 
-export const ContactsList = () => {
-
-    return (
+export const ContactsList = () =>
+    (
         <address className={styles.contactList}>
             <h3 className={styles.contactsListHeader}>Офис</h3>
 
@@ -39,4 +38,3 @@ export const ContactsList = () => {
             </ul>
         </address>
     );
-};

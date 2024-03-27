@@ -11,7 +11,6 @@ export const SectionHeader = (props: SectionHeaderProps) => {
     return (
         <div className={styles.headerWrapper}>
             <h2 className={styles.header} title={title}>{title}</h2>
-
         </div>
     );
 };
