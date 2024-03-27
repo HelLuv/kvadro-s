@@ -11,3 +11,8 @@ export type Customer = {
     image: StaticImageData;
     websiteUrl: string;
 }
+
+export type NavLink = {
+    text: string;
+    url: string;
+}

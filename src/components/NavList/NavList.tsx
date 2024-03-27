@@ -1,24 +1,28 @@
-import styles from "./NavList.module.scss"
+import React, {useState} from 'react';
+import  styles from './NavList.module.scss';
+import {NAV_LINKS} from "./navlinks";
 
-export const NavList = () =>
-    (
-        <nav>
-            <ul className={styles.navList}>
-                <li>
-                    <a href="#">ГЛАВНАЯ</a>
-                </li>
-                <li>
-                    <a href="#serviceSectionAnchor">УСЛУГИ</a>
-                </li>
-                <li>
-                    <a href="#aboutUsSectionAnchor">О НАС</a>
-                </li>
-                <li>
-                    <a href="#customersSectionAnchor">НАШИ ЗАКАЗЧИКИ</a>
-                </li>
-                <li>
-                    <a href="#contactsSectionAnchor">КОНТАКТЫ</a>
-                </li>
-            </ul>
-        </nav>
+export const NavList = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
+    return (
+            <nav className={styles.navList}>
+                <div className={styles.menuToggle} onClick={toggleMenu}>
+                    <div className={styles.line}></div>
+                    <div className={styles.line}></div>
+                    <div className={styles.line}></div>
+                </div>
+                <ul className={`${styles.navLinks} ${menuOpen ? styles.active : ''}`}>
+                    {NAV_LINKS.map(({url, text}) => (
+                        <li key={url}>
+                            <a href={url}>{text}</a>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
     );
+};

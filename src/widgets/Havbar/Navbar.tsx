@@ -1,10 +1,10 @@
 'use client';
 
 import {Logo} from "@/components/Logo";
-import {NavList} from "@/components/NavList";
-import styles from './Navbar.module.css';
+import styles from './Navbar.module.scss';
 import {NavContacts} from "@/components/NavContacts";
 import {useEffect, useState} from "react";
+import {NavList} from "@/components/NavList";
 
 export const Navbar = () => {
     const [isSticky, setIsSticky] = useState(false);
